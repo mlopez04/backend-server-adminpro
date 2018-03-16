@@ -1,19 +1,22 @@
 {
-    "name": "backend-server",
-    "version": "1.0.0",
-    "description": "Servidor Backend Angular",
-    "main": "index.js",
-    "scripts": {
-        "start": "nodemon app.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Mar López",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.16.3",
-        "mongoose": "^4.13.5"
-    },
-    "devDependencies": {
-        "nodemon": "^1.12.1"
-    }
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "Servidor Backend Angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mar López",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^4.13.5",
+    "mongoose-unique-validator": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
