@@ -34,6 +34,10 @@ var usuarioSchema = new Schema({
         default: 'USER_ROLE',
         enum: rolesValidos,
         uppercase: true
+    },
+    google: {
+        type: Boolean,
+        default:false,
     }
 });
 
